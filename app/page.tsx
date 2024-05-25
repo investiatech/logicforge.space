@@ -27,10 +27,13 @@ export default function Home() {
               GitHub
             </Link>
           </div>
-          <img
+          <Image
             src="man-on-a-bicycle.svg"
+            alt="Landscape picture"
             className="max-h-[40rem] max-w-full mt-6 justify-center items-center"
-            alt="..." />
+            width={800}
+            height={600}
+          />
         </div>
       </section>
       <footer>
