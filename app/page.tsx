@@ -6,9 +6,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section className="space-y-6 pb-8 pt-8 md:pb-12 md:pt-10 lg:py-32">
+      <section className="space-y-6 pb-4 pt-8 md:pb-8 md:pt-10 lg:py-32">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
-          <h1 className="font-bold tracking-tight text-gray-800 text-5xl lg:text-7xl mb-6">
+          <h1 className="font-bold tracking-tight text-gray-800 text-5xl lg:text-7xl mb-4">
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-800'>AI Driven Solutions</span> for Smarter Decision Making.
           </h1>
           <p className="max-w-[68rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 mb-6">
@@ -34,6 +34,46 @@ export default function Home() {
             width={800}
             height={600}
           />
+        </div>
+      </section>
+
+      <section id="about" className="container py-8">
+        <div className="mx-auto flex max-w-[64rem] flex-col items-center justify-center gap-4 text-center mb-8">
+          <h2 className="font-bold text-gray-800 text-3xl tracking-tight sm:text-3xl md:text-4xl">Logic Forge is The Best Choice for Data Solutions.
+          </h2>
+          <p className="max-w-[95%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 text-justify">
+            Logic Forge Software Solutions is at the forefront of the data revolution, dedicated to helping businesses unlock the true potential of their data. By leveraging advanced artificial intelligence, machine learning, and state-of-the-art analytics, we provide comprehensive solutions that transform raw data into strategic assets.  The code is available on{" "}
+            <Link
+              href={"https://github.com/investiatech"}
+              target="_blank"
+              rel="noreferrer"
+              className="underline underline-offset-4"
+            >
+              GitHub
+            </Link>
+            .{" "}
+          </p>
+        </div>
+      </section>
+      <section id="mission" className="container py-8">
+        <div className="mx-auto flex max-w-[64rem] flex-col items-center justify-center gap-4 text-center mb-8">
+          <h2 className="font-bold text-gray-800 text-3xl tracking-tight sm:text-3xl md:text-4xl">
+            Empowering Businesses Through Data-Driven Innovation.
+          </h2>
+          <p className="max-w-[95%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 text-justify">
+            Our mission is to empower organizations to make data-driven decisions with confidence. We aim to simplify complexity through intuitive software, enabling businesses to achieve greater efficiency, innovation, and growth.<br />{" "}
+          </p>
+        </div>
+      </section>
+      <section id="mission" className="container py-8">
+        <div className="mx-auto flex max-w-[64rem] flex-col items-center justify-center gap-4 text-center mb-8">
+          <h2 className="font-bold text-gray-800 text-3xl tracking-tight sm:text-3xl md:text-4xl">
+            Pioneering the Future of Data Intelligence.
+          </h2>
+          <p className="max-w-[95%] leading-normal text-muted-foreground sm:text-lg sm:leading-7 text-justify">
+            We envision a world where every organization, regardless of its size or industry, can harness the power of data to innovate, optimize, and excel. Through continuous innovation, we aspire to be the trusted partner in your journey toward data excellence. At Logic Forge Software Solutions, we envision a world where data-driven insights are at the core of every business decision. Our goal is to lead the way in transforming raw data into strategic assets that empower organizations to innovate, optimize, and excel. Through relentless innovation and a commitment to excellence, we aspire to be the trusted partner for businesses seeking to unlock their full potential.<br />{" "}
+            .{" "}
+          </p>
         </div>
       </section>
       <footer>
