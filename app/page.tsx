@@ -9,7 +9,7 @@ export default function Home() {
       <section className="space-y-6 pb-8 pt-8 md:pb-12 md:pt-10 lg:py-32">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
           <h1 className="font-bold tracking-tight text-gray-800 text-5xl lg:text-7xl mb-6">
-            <span className="text-gray-600">AI Driven Solutions</span> for Smarter Decision Making.
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-800'>AI Driven Solutions</span> for Smarter Decision Making.
           </h1>
           <p className="max-w-[68rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8 mb-6">
             Project Logic Forge is a pioneering software company dedicated to transforming the landscape of data analytics and intelligent automation. With a focus on leveraging cutting-edge technologies, such as artificial intelligence, machine learning, and advanced data integration, Logic Forge provides businesses with innovative tools to turn complex data into actionable insights. Our solutions empower organizations to make smarter decisions, streamline operations, and drive sustainable growth.
